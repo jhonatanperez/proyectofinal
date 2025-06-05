@@ -1,6 +1,4 @@
-/* estilos.css */
 
-/* Personalizar el fondo del header */
 html {
     scroll-behavior: smooth;
   }
@@ -24,14 +22,13 @@ header {
     background-position: center;
   }
   
-  /* Opacidad de fondo en el header */
+
   header .container {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     border-radius: 10px;
   }
   
-  /* Cambiar el color del texto en el hero */
   header h1,
   header p {
     color: #ffffff;
@@ -42,14 +39,13 @@ header {
     color: #0d6efd;
   }
   
-  /* Footer más sobrio */
+
   footer {
     background-color: #222;
     color: #ccc;
   }
   
-  /* Personalizar navbar */
-/* --- Navbar moderno --- */
+
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
