@@ -1,0 +1,77 @@
+/* estilos.css */
+
+/* Personalizar el fondo del header */
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    position: relative;
+  }
+  section {
+    padding: 80px 0;
+  }
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #0d6efd !important;
+  }
+  #sidebar-scrollspy .nav-link.active {
+    font-weight: bold;
+    color: #0d6efd;
+  }
+header {
+    background-image: url('img/seguridad.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Opacidad de fondo en el header */
+  header .container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  /* Cambiar el color del texto en el hero */
+  header h1,
+  header p {
+    color: #ffffff;
+  }
+  
+  /* Color personalizado para los títulos */
+  h2 {
+    color: #0d6efd;
+  }
+  
+  /* Footer más sobrio */
+  footer {
+    background-color: #222;
+    color: #ccc;
+  }
+  
+  /* Personalizar navbar */
+/* --- Navbar moderno --- */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.6rem;
+    color: #0d6efd !important;
+    font-weight: 700;
+  }
+  
+  .navbar-light .nav-link {
+    color: #333;
+    margin-left: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-light .nav-link:hover,
+  .navbar-light .nav-link.active {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+  }
+
+  
